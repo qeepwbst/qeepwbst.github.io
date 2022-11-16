@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+body {
+  font-family: 'Rubik', sans-serif;
+}
+.fal {
+  font-family: 'Font Awesome 5 Pro' !important;
+}
+:root {
+	
+	/* #ff6b61 in decimal RGB */
+  --base-color-1: #EF4A2B;
+  --base-color-2: #FFE43B;
+  --base-color-3: #7486E5;
+  --base-color-4: #63DAD9;
+  --base-color-5: #14A3EB;
+  --base-color-6: #43d4d2;
+  --base-color-7: #7489f7;
+  
+
+
+  /* Fonts */
+  --heading-1: 'Arimo';
+  --heading-2: 'Oswald';
+  --heading-3: 'Jost';
+  --heading-4: 'Poppins';
+  --body-font: 'Arimo';  
+	--transition: 500ms all ease;
+
+   --base-color: #ffc801;
+  
+
+
+  /* Fonts */
+  --heading: 'Nunito';
+  --body-font: 'Rubik';  
+  --transition: 500ms all ease;
+}
