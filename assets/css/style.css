@@ -1773,6 +1773,9 @@ select:visited {
 .ori-slider-content-1 {
   z-index: 1;
   padding: 235px 0px 340px;
+  background: url(../img/slider/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .ori-slider-content-1 .ori-slider-img {
   left: 0;
@@ -2061,6 +2064,9 @@ select:visited {
   z-index: 1;
   overflow: hidden;
   padding: 85px 0px 85px;
+  background: url(../img/slider/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .ori-project-tab-btn {
@@ -2217,7 +2223,7 @@ select:visited {
 .ori-text-scroll-section-1 {
   z-index: 1;
   overflow: hidden;
-  padding: 0px 0px;
+  padding: 50px 0px 0px;
 }
 
 .ori-text-scroll-section-2 {
@@ -13182,7 +13188,7 @@ Font load
   }
 
   .ori-slider-wrap-1 .slick-dots li.slick-active {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #044e5b;
   }
 
   .line_animation .line_area:before {
