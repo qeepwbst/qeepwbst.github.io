@@ -145,7 +145,7 @@ body .container {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #000 url("../img/loader.svg") no-repeat center center;
+  background: #023e48 url("../img/loader.svg") no-repeat center center;
 }
 
 [data-background] {
@@ -648,7 +648,7 @@ select:visited {
   animation-fill-mode: both;
   -webkit-animation-name: slideInDown;
   animation-name: slideInDown;
-  background-color: #021229;
+  background-color: #023e48;
   -webkit-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-transition: 0.3s all ease-in-out;
@@ -772,7 +772,7 @@ select:visited {
   width: 70px;
   height: 70px;
   border-radius: 100%;
-  background-color: #021229;
+  background-color: #044e5b;
 }
 
 .ori-header-login-signup button {
@@ -1282,7 +1282,7 @@ select:visited {
   overflow: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  background-color: #272727;
+  background-color: #023e48;
   -webkit-transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
   transition: all 0.5s cubic-bezier(0.9, 0.03, 0, 0.96) 0.6s;
   visibility: hidden;
@@ -1387,7 +1387,7 @@ select:visited {
   position: fixed;
   width: 310px;
   overflow-y: scroll;
-  background-color: #000;
+  background-color: #023e48;
   padding: 20px 35px 35px 35px;
   -webkit-box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.19);
   box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.19);
@@ -1577,7 +1577,7 @@ select:visited {
 .ori-digital-studio,
 .ori-inner-page {
   color: #fff;
-  background-color: #0d0d0d;
+  background-color: #044e5b;
 }
 .ori-digital-studio h1,
 .ori-digital-studio h2,
@@ -1801,9 +1801,9 @@ select:visited {
     left top,
     left bottom,
     color-stop(79.32%, rgba(9, 9, 9, 0)),
-    color-stop(99.06%, #0d0d0d)
+    color-stop(99.06%, #032a31)
   );
-  background: linear-gradient(180deg, rgba(9, 9, 9, 0) 79.32%, #0d0d0d 99.06%);
+  background: linear-gradient(180deg, rgba(9, 9, 9, 0) 79.32%, #032a31 99.06%);
 }
 .ori-slider-content-1.slick-current.slick-active .ori-slider-img {
   opacity: 1;
@@ -1868,8 +1868,8 @@ select:visited {
   height: 120px;
   margin: 0 auto;
   border-radius: 100%;
-  background-color: #0d0d0d;
-  border: 2px solid #ffffff;
+  background-color: #023e48;
+  border: 2px solid #044e5b;
 }
 
 .ori-slider-wrap-1 .slick-dots {
@@ -1886,17 +1886,17 @@ select:visited {
   height: 70px;
   display: block;
   line-height: 70px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   border-radius: 100%;
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
-  background-color: transparent;
+  background-color: #023e48;
 }
 .ori-slider-wrap-1 .slick-dots li:last-child {
   margin-bottom: 0;
 }
 .ori-slider-wrap-1 .slick-dots li.slick-active {
-  background-color: #021229;
+  background-color: #044e5b;
 }
 
 /*---------------------------------------------------- */
@@ -1908,7 +1908,7 @@ select:visited {
 
 .ori-service-wrapper-1 {
   padding: 130px 0px 85px;
-  background-color: #021229;
+  background-color: #044e5b;
 }
 
 .ori-service-content-1 {
@@ -2033,7 +2033,7 @@ select:visited {
   height: 1.1px;
   position: relative;
   display: inline-block;
-  background-color: #181818;
+  background-color: #023e47;
 }
 
 .ori-sponsor-slider .slick-arrow {
@@ -11434,11 +11434,11 @@ Font load
 /*----------------------------------------------------*/
 .ori-footer-section {
   padding-top: 60px;
-  background-color: #021229;
+  background-color: #023e48;
 }
 .ori-footer-section.footer-style-two {
   padding-top: 120px;
-  background-color: #021229;
+  background-color: #044e5b;
 }
 .ori-footer-section.footer-style-two .ori-copyright-text {
   color: #fff;
@@ -11728,34 +11728,45 @@ Font load
   margin-bottom: 12px;
 }
 .ori-footer-widget .menu-location-widget li a {
-  color: #7d7d7d;
+  color: #ddd;
   font-size: 15px;
 }
 .ori-footer-widget .contact-widget span,
 .ori-footer-widget .contact-widget a {
-  color: #7d7d7d;
+  color: #ddd;
   display: block;
   margin-bottom: 12px;
 }
 .ori-footer-widget .newslatter-widget .newslatter-form input {
   width: 100%;
   border: none;
+  color: #ddd;
   padding-bottom: 20px;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #b9b9b9;
   background-color: transparent;
 }
+.ori-footer-widget .newslatter-widget .newslatter-form input::placeholder {
+  color: #ddd;
+}
+
 .ori-footer-widget .newslatter-widget .newslatter-form button {
   color: #fff;
   border: none;
   margin-top: 50px;
-  font-weight: 600;
   text-transform: uppercase;
-  background-color: transparent;
+  background-color: #f04a2b;
+  padding: 15px 25px;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  border-radius: 35px;
+  letter-spacing: 0.05em;
 }
 
 .ori-footer-copyright {
   padding: 25px 0px;
-  border-top: 1px solid #292929;
+  border-top: 1px solid #044e5b;
 }
 .ori-footer-copyright .ori-copyright-text {
   font-size: 14px;
