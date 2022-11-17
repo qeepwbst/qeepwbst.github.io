@@ -648,7 +648,7 @@ select:visited {
   animation-fill-mode: both;
   -webkit-animation-name: slideInDown;
   animation-name: slideInDown;
-  background-color: #171717;
+  background-color: #021229;
   -webkit-animation-timing-function: ease;
   animation-timing-function: ease;
   -webkit-transition: 0.3s all ease-in-out;
@@ -772,7 +772,7 @@ select:visited {
   width: 70px;
   height: 70px;
   border-radius: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #021229;
 }
 
 .ori-header-login-signup button {
@@ -1896,7 +1896,7 @@ select:visited {
   margin-bottom: 0;
 }
 .ori-slider-wrap-1 .slick-dots li.slick-active {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #021229;
 }
 
 /*---------------------------------------------------- */
@@ -1908,7 +1908,7 @@ select:visited {
 
 .ori-service-wrapper-1 {
   padding: 130px 0px 85px;
-  background-color: #171717;
+  background-color: #021229;
 }
 
 .ori-service-content-1 {
@@ -11434,11 +11434,11 @@ Font load
 /*----------------------------------------------------*/
 .ori-footer-section {
   padding-top: 60px;
-  background-color: #171717;
+  background-color: #021229;
 }
 .ori-footer-section.footer-style-two {
   padding-top: 120px;
-  background-color: #171717;
+  background-color: #021229;
 }
 .ori-footer-section.footer-style-two .ori-copyright-text {
   color: #fff;
