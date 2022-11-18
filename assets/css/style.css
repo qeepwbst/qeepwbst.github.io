@@ -6972,7 +6972,7 @@ select:visited {
 
 .ori-about-circle-progress-section {
   overflow: hidden;
-  padding-top: 60px;
+  padding: 120px 0;
 }
 
 .ori-circle-progress-top-content {
@@ -7012,11 +7012,11 @@ select:visited {
 }
 
 .inner-sponsor {
-  padding-bottom: 80px;
+  padding: 120px 0;
 }
 
 .about-founded-section {
-  background: #171717;
+  padding: 120px 0;
 }
 
 .about-founded-wrapper {
@@ -7163,7 +7163,7 @@ select:visited {
 
 .about-family-right-img1 img,
 .about-family-right-img2 img {
-  max-width: 300px;
+  /* max-width: 300px; */
   width: 100%;
   border-radius: 6px;
 }
@@ -7178,13 +7178,13 @@ select:visited {
 .ori-service-page-service-section {
   overflow: hidden;
   padding: 90px 0px;
-  background-color: #0d0d0d;
+  /* background-color: #0d0d0d; */
 }
 
 .ori-service-page-service-inner-item {
   margin: 15px 0px;
   padding: 60px 40px;
-  background-color: #171717;
+  background-color: #023e48;
 }
 .ori-service-page-service-inner-item .service-icon {
   margin-bottom: 30px;
@@ -11852,6 +11852,11 @@ Font load
   color: var(--base-color-1);
 }
 
+.ori-about-play-img {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 /*---------------------------------------------------- */
 /*Responsive area*/
 /*----------------------------------------------------*/
@@ -12129,7 +12134,7 @@ Font load
   }
 
   .ori-header-section .brand-logo {
-    width: 150px;
+    width: fit-content;
   }
 
   .ori-slider-text h1 {
@@ -12375,7 +12380,7 @@ Font load
   }
 
   .ori-header-section {
-    padding: 25px 15px;
+    padding: 30px 15px;
   }
 
   .mobile_menu_button {
@@ -13223,8 +13228,9 @@ Font load
     padding: 60px 0px 0px;
   }
 
-  .ori-project-section-1 {
-    padding-top: 60px;
+  .ori-project-section-1,
+  .ori-about-circle-progress-section {
+    padding: 60px 0;
   }
 
   .ori-project-tab-btn {
@@ -14406,7 +14412,7 @@ Font load
   }
 
   .inner-sponsor {
-    padding-bottom: 40px;
+    padding: 60px 0;
   }
 
   .ori-banner-text-wrap-7 h1:after {
