@@ -1249,7 +1249,7 @@ select:visited {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000;
+  background-color: #082226;
   -webkit-transition: 800ms all cubic-bezier(0.77, 0, 0.175, 1);
   transition: 800ms all cubic-bezier(0.77, 0, 0.175, 1);
 }
@@ -1953,7 +1953,7 @@ select:visited {
   left: auto;
   height: 100%;
   position: absolute;
-  background-color: #0d0d0d;
+  background-color:rgb(2 62 72 / 80%);
   -webkit-transition: 500ms all ease;
   transition: 500ms all ease;
 }
@@ -1984,7 +1984,7 @@ select:visited {
   font-weight: 700;
   transition: all 0.5s;
 }
-/* .ori-service-inner-item:hover .ori-service-more {
+.ori-service-inner-item:hover .ori-service-more {
   top: 50%;
   opacity: 1;
 }
@@ -1992,7 +1992,7 @@ select:visited {
   left: 0;
   width: 100%;
   right: auto;
-} */
+}
 
 .ori-service-inner-item:hover .ori-service-title h3 {
   color: #ef4a2b !important;
@@ -6949,8 +6949,8 @@ select:visited {
   font-weight: 700;
   border-radius: 100%;
   letter-spacing: 0.25em;
-  background-color: #0d0d0d;
-  border: 2px solid #ffffff;
+  background-color: #023e48;
+  border: 2px solid #044e5b;
 }
 
 .ori-about-counter-area {
@@ -7407,7 +7407,7 @@ select:visited {
   border-radius: 100%;
   text-align: center;
   display: inline-block;
-  background-color: #242424;
+  background-color: #023e48;
   color: var(--base-color-1);
 }
 .ori-service-process-item p {
@@ -7454,7 +7454,7 @@ select:visited {
   padding: 40px;
   border-radius: 20px;
   margin-bottom: 60px;
-  background-color: #171717;
+  background-color: #023e48;
 }
 .ori-service-details-widget .widget-title {
   font-size: 24px;
@@ -7515,7 +7515,7 @@ select:visited {
   border: none;
   margin-bottom: 30px;
   background-color: transparent;
-  border-bottom: 1px solid #393939;
+  border-bottom: 1px solid #bac1d4;
 }
 .ori-service-details-widget .quote-widget input::-webkit-input-placeholder,
 .ori-service-details-widget .quote-widget textarea::-webkit-input-placeholder {
@@ -7768,7 +7768,7 @@ select:visited {
 .ori-single-comment-form {
   padding: 40px;
   border-radius: 20px;
-  background-color: #171717;
+  background-color: #023e48;
 }
 .ori-single-comment-form h3 {
   color: #fff;
@@ -7798,7 +7798,7 @@ select:visited {
   height: 50px;
   padding-left: 20px;
   margin-bottom: 35px;
-  border: 1px solid #393939;
+  border: 1px solid #53808f;
   background-color: transparent;
 }
 .ori-single-comment-form form input::-webkit-input-placeholder,
@@ -8199,12 +8199,12 @@ select:visited {
   border-bottom: 1px solid #fff;
 }
 .ori-portfolio-details-tag-share .ori-portfolio-details-tag a {
-  color: #959595;
+  color: #bac1d4;
   font-size: 14px;
   padding: 8px 20px;
   margin-right: 10px;
   display: inline-block;
-  background-color: #2e2e2e;
+  background-color: #023e48;
 }
 .ori-portfolio-details-tag-share .ori-portfolio-details-tag a:hover {
   color: #fff;
@@ -8217,7 +8217,7 @@ select:visited {
   text-align: center;
   border-radius: 100%;
   display: inline-block;
-  background-color: #202020;
+  background-color: #023e48;
 }
 .ori-portfolio-details-tag-share .ori-portfolio-details-share a:hover {
   background-color: var(--base-color-1);
@@ -8367,7 +8367,7 @@ select:visited {
   padding: 45px 40px;
   border-radius: 20px;
   margin-bottom: 40px;
-  background-color: #171717;
+  background-color: #023e48;
 }
 .ori-blog-widget .search-widget form {
   position: relative;
@@ -8428,13 +8428,13 @@ select:visited {
   padding-top: 5px;
 }
 .ori-blog-widget .tag-widget li a {
-  color: #959595;
+  color: #bac1d4;
   padding: 5px 20px;
   border-radius: 3px;
   margin-right: 10px;
   margin-bottom: 10px;
   display: inline-block;
-  background-color: #2e2e2e;
+  background-color: #044e5b;
 }
 .ori-blog-widget .tag-widget li a:hover {
   color: #fff;
@@ -8640,7 +8640,7 @@ select:visited {
   padding: 40px;
   border-radius: 20px;
   margin-bottom: 80px;
-  background-color: #171717;
+  background-color: #023e48;
 }
 .ori-blog-details-text-wrapper .ori-blog-details-author .author-img {
   width: 150px;
@@ -9731,8 +9731,8 @@ select:visited {
   height: 50px;
   padding: 20px;
   margin-bottom: 30px;
-  background-color: #0d0d0d;
-  border: 1px solid #393939;
+  background-color: #023e48;
+  border: 1px solid #53808f;
 }
 .ori-contact-form-wrap input::-webkit-input-placeholder,
 .ori-contact-form-wrap textarea::-webkit-input-placeholder {
@@ -10448,6 +10448,106 @@ Font load
 .ori-agency-contact-form button:hover {
   color: #fff;
   background-color: #000;
+}
+
+/*---------------------------------------------------- */
+/*CTA area*/
+/*----------------------------------------------------*/
+
+.ori-cta-section-1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+}
+
+.cta-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.cta-right-section {
+  position: relative;
+}
+
+.cta-right-bg {
+  position: relative;
+}
+
+.cta-left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.cta-left-section h3 {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.qodef-letter {
+  display: inline-block;
+  background: url(../img/cta/textBg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+.cta-right-bg img {
+  max-width: 600px;
+  width: 100%;
+}
+
+.cta-right-bg h2 {
+  color: #fff;
+  font-size: 16em;
+  position: absolute;
+  transform: translate(-100%, 0%);
+}
+
+.cta-right-bg h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #f04a2b;
+}
+
+.cta-right-bg h2:nth-child(2) {
+  color: #f04a2b;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0% 45%,
+      16% 44%,
+      33% 50%,
+      54% 60%,
+      70% 61%,
+      84% 59%,
+      100% 52%,
+      100% 100%,
+      0% 100%
+    );
+  }
+
+  50% {
+    clip-path: polygon(
+      0% 60%,
+      15% 65%,
+      34% 66%,
+      51% 62%,
+      67% 50%,
+      84% 45%,
+      100% 46%,
+      100% 100%,
+      0% 100%
+    );
+  }
 }
 
 /*---------------------------------------------------- */
@@ -11388,6 +11488,33 @@ Font load
 
   .about-founded-bottom img {
     margin-top: -3px;
+  }
+
+  .cta-wrapper {
+    flex-direction: column;
+  }
+
+  .cta-right-bg h2 {
+    transform: translate(18%, -10%);
+  }
+
+  .ori-cta-section-1 {
+    height: unset;
+    padding-bottom: 400px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cta-left-section h3 {
+    font-size: 72px;
+  }
+
+  .cta-right-bg h2 {
+    font-size: 7em;
+  }
+
+  .ori-project-section-1 {
+    padding: 60px 0 180px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -13228,7 +13355,6 @@ Font load
     padding: 60px 0px 0px;
   }
 
-  .ori-project-section-1,
   .ori-about-circle-progress-section {
     padding: 60px 0;
   }
